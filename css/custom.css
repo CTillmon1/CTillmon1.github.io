@@ -1,0 +1,48 @@
+
+#navbar-brand {
+  color: rgba(204,204,204,.85);
+  text-decoration: none;
+}
+h1.display-2{
+  text-shadow: 5px 8px 5px rgba(102, 51, 153,.85);
+  color: rgba(255,255,255,.95);
+  text-align: center;
+  
+}
+.jumbotron{
+  background:
+      linear-gradient(rgba(220,20,60,.7), transparent 90%), 
+    linear-gradient(0deg, #fff, transparent);
+  background-size: cover;
+
+}
+.jumbotron#home{
+background: 
+    linear-gradient(rgba(220,20,60,.7), transparent 90%), 
+    linear-gradient(0deg, #fff, transparent), 
+    url('../img/bruce lee.jpg') no-repeat center;
+background-size: cover;
+}
+.endJ {
+width: 400px;
+height: 100px;
+}
+.card{
+border: 2px solid black;
+}
+.btn.btn-primary.btn-sm.mainbtn{
+border: .5px solid white;
+background-color: rgba(220,20,60, .8);
+}
+.btn.btn-primary{
+  border: .5px solid rgba(220,20,60, .8);
+  background-color: rgba(220,20,60, .95);
+}
+
+.navbar.navbar-toggleable-md.navbar-light.bg-faded {
+background-color: rgb(128,128,128);
+}
+.btn.btn-outline-info.btn-lg.d-block.mx-auto.my-5{
+border: 1px solid rgb(220,20,60);
+color: rgba(220,20,60);
+}
