@@ -61,6 +61,10 @@ color: rgba(220,20,60);
   margin-left: 20px; 
 	
 }
+.shadow{
+	box-shadow: 10px 10px 10px 3px gray; 
+	
+}
 .card-text, .card-title{
   text-align: center;
   
