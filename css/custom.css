@@ -51,6 +51,7 @@ color: rgba(220,20,60);
 }
 #image_container{
 	overflow: hidden; 
+	text-align:center;
 }
 #bioPic {
   transform: scale(.75);
