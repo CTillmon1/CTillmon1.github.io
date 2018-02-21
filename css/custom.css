@@ -81,3 +81,22 @@ padding-left: 2px;
 }
 #home h1 {
 transform: scale(.75);
+}
+div[role="tab"]{
+	background: rgba(220,20,60, .8);
+}
+h5>a{
+	color: white; 
+	text-decoration: none; 
+}
+h5>a:hover{
+	color: Grey; 
+	text-decoration: none; 
+}
+h5>a:focus{
+	color: Grey; 
+	text-decoration: none; 
+}
+strong>a :hover{
+	text-decoration: none; 
+}
