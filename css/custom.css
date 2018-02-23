@@ -137,3 +137,15 @@ h5>a:focus{
 	opacity: 1; 
 	
 }
+#blogLink {
+	color: black;
+	background: white;
+	width: 110px; 
+	height: 30px; 
+	margin: auto;
+	margin-top: 0;
+	margin-bottom: 10px;
+	text-decoration: none;
+	border-radius: 7%; 
+	border: 2px solid black;
+}
