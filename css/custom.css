@@ -64,13 +64,13 @@ color: rgba(220,20,60);
 	
 }
 .shadow{
-	box-shadow: 10px 10px 10px 3px gray; 
-	
+	box-shadow: 5px 5px 10px 3px gray; 
+	transition: box-shadow .5s ease-out; 
 }
-.card-text, .card-title{
-  text-align: center;
-  
+.shadow:hover {
+	box-shadow: 10px 10px 15px 5px gray; 
 }
+
 .carousel-item .d-block {
 margin: 0 auto;
 }
@@ -116,6 +116,19 @@ h5>a:focus{
 				url("../img/blogBackground.jpeg") no-repeat center;
 	background-size: cover;
 }
+.card shadow {
+	position: relative; 
+}
+.card shadow a {
+	z-index: 2; 
+}
+.card-main {
+	position: inherit; 
+}
+.card-main img {
+	width: 100%; 
+	max-height: 180px; 
+}
 .overlay{
 	color: white;
 	position: absolute;
@@ -133,12 +146,17 @@ h5>a:focus{
 	transition-property: opacity;
 	transition-duration: .5s;
 }
+.overlay p {
+	text-align: center; 
+	font-weight: bold; 
+	font-size: 20px; 
+}
 .overlay:hover{
 	opacity: 1; 
 	
 }
 #blogLink {
-	color: black;
+	color: rgba(0,119,181,.9);
 	background: white;
 	width: 110px; 
 	height: 30px; 
@@ -147,5 +165,5 @@ h5>a:focus{
 	margin-bottom: 10px;
 	text-decoration: none;
 	border-radius: 7%; 
-	border: 2px solid black;
+	border: 2px solid rgb(119,136,153);
 }
