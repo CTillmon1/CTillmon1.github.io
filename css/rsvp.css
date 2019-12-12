@@ -15,14 +15,14 @@ p,
 form button {
   color: white;  
 }
-h1 {
+.title {
   font-family: 'Courgette', cursive;
   text-shadow: 0 1px 0 rgba(0,0,0, .4);
   line-height: .65;
   margin-top: .5em;
   margin-bottom: 0;
 }
-h2 {
+.sub {
   margin-top: 0;
 }
 p {
@@ -46,12 +46,12 @@ form button {
   background: #7bcbc4;
   border-radius: .2em;
 }
-ul {
+#invitedList {
   list-style: none;
   padding: 0;
   margin: 2em 0 1em;
 }
-ul li {
+ #invitedList li {
   padding: 1em;
   background: #fff;
   border-radius: .2em;
@@ -67,30 +67,30 @@ button {
   border: none;
   outline: none;
 }
-header {
+#formHeader {
   text-align: center;
   background: linear-gradient(90deg, #d4eece, #55b3d0, #1e7eb7),
               url('../images/header-bg.jpg') no-repeat;
               background-blend-mode: multiply;    
               background-size: cover;   
 }
-header input {
+#formHeader input {
   padding: 12px;
   font-size: 1.15em;
   width: 100%;
 }
 li span, 
-li input[type=text] {
+#mainList ul li input[type=text] {
   color: #707070;
   font-size: 1.3em;
   margin-bottom: .3em;
 }
-li input[type=text] {
+#mainList ul li input[type=text] {
   padding: .2em;
   width: 95%;
   border: 1px dotted rgba(0,0,0, .2);
 }
-li label {
+#mainList ul li label {
   font-size: .9em;
   display: block;
   color: rgba(112, 112, 112, .55);
@@ -99,7 +99,7 @@ li span,
 li input[type=text]:first-child {
   display: block;
 }
-li button {
+#invitedList li button {
   font-size: .78em;
   margin-top: 1.65em;
   margin-right: .4em;
@@ -108,7 +108,7 @@ li button {
   color: white;
   background: #58b7cd;
 }
-li button:last-child {
+#invitedList li button:last-child {
   background: rgba(88, 183, 205, .5);
 }
 .wrapper {
@@ -149,11 +149,11 @@ li label input {
   header {
     padding: 1.25em;
   }
-  h1 {
+  .title {
     font-size: 3.6em;
     margin: .3em 0 0;
   }
-  ul li {
+  #invitedList li {
     margin-bottom: 1em;
   }
   form {
@@ -194,10 +194,10 @@ li label input {
   div > label {
     margin-top: 12px;
   }
-  h1 {
+  .title {
     font-size: 5.8em;
   }
-  h2 {
+  .sub {
     float: left;
     font-size: 1.9em;
     margin-left: 1.25%;
@@ -210,12 +210,18 @@ li label input {
   .wrapper {
     width: 90%;
   }
-  .main {
+  .mainList {
     padding: 3.8em 1.5em .75em;
     position: relative;
     z-index: 10;
   }
-  ul {
+  .mainList ul li label {
+	  margin-top: auto; 
+  }
+  .mainList ul li input {
+	  margin-top: auto; 
+  }
+  #invitedList{
     display: -webkit-flex;
     display: flex;
     clear: both;
@@ -226,7 +232,7 @@ li label input {
     flex-wrap: wrap;
     padding-top: 1.25em;
   }
-  ul li {
+  #invitedList li {
     -webkit-flex-grow: 1;
     flex-grow: 1;
     -webkit-flex-basis: 47.5%;
@@ -235,7 +241,7 @@ li label input {
   }
 }
 @media ( min-width: 880px) { 
-  ul li {
+  #invitedList li {
     -webkit-flex-basis: 20%;
     flex-basis: 20%;
   }
