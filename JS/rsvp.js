@@ -1,6 +1,6 @@
 const form = document.getElementById('registrar');
 const input = form.querySelector('input');
-const main = document.querySelector('.main');
+const main = document.querySelector('#mainList');
 const ul = document.getElementById('invitedList');
 
 
@@ -12,7 +12,7 @@ filterLabel.textContent = "Hide those who haven't responded";
 filterCheckBox.type = 'checkbox';
 div.appendChild(filterLabel);
 div.appendChild(filterCheckBox);
-main.insertBefore(div,ul);
+main.insertBefore(div, ul);
 
 filterCheckBox.addEventListener('change', (e)=>{
   const isChecked = e.target.checked;
