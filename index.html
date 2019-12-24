@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="container-fluid">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -9,48 +9,48 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/custom.css">
   </head>
-  <body id="home" data-spy="scroll" data-target=".navbar" data-offset="100">
+  <body id="home" data-spy="scroll" data-target=".navbar" class="row">
     
     <!-- Nav Bar   -->
     <div class="container">
-    <nav class="navbar navbar-toggleable-md fixed-top navbar-light bg-faded">
-  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <a class="navbar-brand" href="#">CT</a>
-  <div class="collapse navbar-collapse container" id="navbarNav">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          About Charles 
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="Bio.html">Mission Statement</a>
-          <a class="dropdown-item" href="myWork.html">My Work</a>
-        </div>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Extras
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="Gallery.html">Gallery</a>
-		  <a class="dropdown-item" href="contact.html">Contact</a>
-        </div>
-      </li>
-    </ul>
-    <a id="navbar-brand" href="#" class="hidden-sm-down">Charles Tillmon</a>
-  </div>
-</nav>
-      </div>
+    <nav class="navbar navbar-toggleable-md fixed-top navbar-light bg-faded row">
+		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+		</button>
+		<a class="navbar-brand" href="#">CT</a>
+		<div class="collapse navbar-collapse container" id="navbarNav">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					About Charles 
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						<a class="dropdown-item" href="Bio.html">Mission Statement</a>
+						<a class="dropdown-item" href="myWork.html">My Work</a>
+					</div>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Extras
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						<a class="dropdown-item" href="Gallery.html">Gallery</a>
+						<a class="dropdown-item" href="contact.html">Contact</a>
+					</div>
+				</li>
+			</ul>
+			<a id="navbar-brand" href="#" class="hidden-sm-down">Charles Tillmon</a>
+		</div>
+	</nav>
+   </div>
     <!-- /Nav Bar   -->
     
 <!--Jumobotron start-->
-<div id ="home" class="jumbotron jumbotron-fluid bg-info">
-      <div class="container text-center pt-5">
+<div id ="home" class="jumbotron container-fluid bg-info pl-aut">
+      <div class=" text-center pt-5 row">
           <h1 id="first" class="display-2">" Do not pray for an easy life, pray for the strength 
         to endure a difficult one " 
         <br>~Bruce Lee</h1>
@@ -115,7 +115,7 @@
       <!-- signup form -->
 <hr>
   
-	<div class="row py-4 text-muted">
+	<div class="row py-4 text-muted mb-3">
 	  <div class="col-md-12 col-xl-5">
 		<p><strong>Charles Tillmon</strong></p>
 		<p>Washington State University</p>
@@ -124,10 +124,10 @@
 <hr><!-- /signup form -->
       
 	<!-- Footer  start    -->
-	<div style="width:100vw" class="row fixed-bottom pb-2 pt-2 pl-2">
+	<div class="container-fluid fixed-bottom pb-2 pt-2 pl-2">
 	<!--  footer left    -->
-
-		<div class="col-md-7 parts">
+	  <div class="row">
+		<div class="col-md-7  parts">
 		  <ul class="nav nav-inline">
 			<li class="nav-item">
 				<div class="btn-group dropup">
@@ -167,6 +167,7 @@
 		<div class="col-md-5 text-md-right parts">
 		 <small>&copy; 2017 Charles Tillmon</small>
 		</div>
+	  </div>
 	</div>
 	<!--  footer end    -->
     
