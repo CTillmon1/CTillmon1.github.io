@@ -69,6 +69,7 @@ color: rgba(220,20,60);
 #image_container{
 	overflow: hidden; 
 	text-align:center;
+	margin-bottom: 75px; 
 }
 #bioPic {
   transform: scale(.95); 
@@ -98,6 +99,7 @@ list-style-type: none;
 list-style-position:outside;
 padding-left: 2px; 
 }
+
 #home h1 {
 transform: scale(.75);
 }
