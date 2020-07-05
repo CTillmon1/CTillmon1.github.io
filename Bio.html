@@ -7,6 +7,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>CT</title>
     <!-- bootstrap css -->
+	<link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/custom.css">
   </head>
@@ -58,17 +59,20 @@
 
     
 <!--Jumbotron end    -->
-<div class="container-fluid">
+<div id="bio-container" class="container-fluid">
 	<!--    main -->
 	<div class="row">
 	  
 		
 			<div class="col-md-12 ">
-			 <div class="container mt-5 mx-auto d-flex ">
-				<img id="bioPic" class="rounded mx-auto" src="img/profile1.jpg" alt="Charles' Profile Pic">
+			 <div id="picture-container" class="container mt-5 mx-auto">
 				
-				<div class="pl-4" style="box-shadow: 4px 4px rgba(120, 81, 169, .66);">
-					<h1 id="statement" style="color:gold; text-shadow: 2px 2px rgba(220,20,60,.7);" class="justified text-center pt-1">
+				<div class="pl-4 pb-3">
+					<figure id="bioPic">
+						<img id="profilePic" class="rounded mx-auto" src="img/profile1.jpg" alt="Charles' Profile Pic">
+					
+					</figure>
+					<h1 id="statement" style="color:gold;" class="justified text-center pt-1">
 					   An Out of The Box Thinker Constantly Seeking Growth
 					</h1>
 					
@@ -85,8 +89,8 @@
 			
 			
 			
-			<div id="image_container"  class="col-md-12 mt-5">
-			  <div  style="border-left: 4px solid rgba(120, 81, 169, .66);" class="col-md-6 offset-md-3 text-center mt-3 pl-5">
+			<div id="image_container"  class="col-md-12">
+			  <div class="col-md-6 offset-md-3 text-center pl-5">
 				    <h2 style="color:gold; text-shadow: 2px 2px rgba(220,20,60,.7);" class="">Technical Skills</h2>
 					
 					<div id="accordion" role="tablist" aria-multiselectable="true">
