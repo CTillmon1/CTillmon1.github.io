@@ -233,9 +233,14 @@ h5>a:focus{
 	}
 	#first {
 		font-size: 30px; 
+		padding-bottom: 2em; 
+
 	}
 	.endJ {
 		display: none; 
+	}
+	#contact-content {
+		text-align: center; 
 	}
 	
 }
