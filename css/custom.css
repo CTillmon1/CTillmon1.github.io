@@ -6,6 +6,11 @@
 html {
   height: 100%; 
   width: 100%; 
+  margin: 0;
+  padding: 0; 
+}
+.nav-container {
+	height: 50px; 
 }
 #navbar-brand {
   color: rgba(204,204,204,.85);
@@ -21,19 +26,32 @@ h1.display-2{
 #first { 
 	text-shadow: 4px 4px 8px gold;
 }
-.jumbotron{
-  background:
-    linear-gradient(rgba(220,20,60,.7), transparent 90%), 
-    linear-gradient(0deg, #fff, transparent);
-  background-size: cover;
-
+#mainPageHeader {
+	position: relative;
+	height: 100%; 
+	width: 100%; 
 }
+.mainHeaderText {
+	position: absolute; 
+	font-size: 1.6rem; 
+	font-family: "Modak"; 
+	color: white; 
+}
+#home {
+	height: 400px; 
+	width: 100%; 
+}
+#home h1 {
+transform: scale(.75);
+}
+
 .jumbotron#home{
 background: 
     linear-gradient(rgba(220,20,60,.7), transparent 90%), 
     linear-gradient(0deg, #fff, transparent), 
     url('../img/bruce lee.jpg') no-repeat center;
-background-size: cover;
+	background-size: cover;
+	background-position: top; 
 
 }
 .endJ {
@@ -58,6 +76,9 @@ background-color: rgba(220,20,60, .8);
 }
 #about{
 	margin-bottom: 25px; 
+	display: flex;
+	align-items: center;
+	width: 100%; 
 }
 .navbar.navbar-toggleable-md.navbar-light.bg-faded {
 background-color: rgb(128,128,128);
@@ -114,9 +135,7 @@ list-style-position:outside;
 padding-left: 2px; 
 }
 
-#home h1 {
-transform: scale(.75);
-}
+
 div[role="tab"]{
 	background: rgba(220,20,60, .8);
 }
@@ -150,6 +169,9 @@ h5>a:focus{
 				linear-gradient(0deg, #fff, transparent),
 				url("../img/blogBackground.jpeg") no-repeat center;
 	background-size: cover;
+}
+.articles {
+	width: 25%;
 }
 .card shadow {
 	position: relative; 
