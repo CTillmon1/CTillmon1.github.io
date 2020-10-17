@@ -1,64 +1,47 @@
 <!DOCTYPE html>
 <html lang="en" class="container-fluid">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>CT</title>
-    <!-- bootstrap css -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/custom.css">
-  </head>
-  <body class="row">
-       <!--  Nav Bar -->
-<div class="container">
-    <nav class="navbar navbar-toggleable-md fixed-top navbar-light bg-faded">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-      </button>
-      <a class="navbar-brand" href="#">CT</a>
-    <div class="collapse navbar-collapse container" id="navbarNav">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          About Charles
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="Bio.html">Mission Statement</a>
-            <a class="dropdown-item" href="myWork.html">My Work</a>
-          </div>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-         Extras
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="Gallery.html">Gallery</a>
-			<a class="dropdown-item" href="contact.html">Contact</a>
-          </div>
-        </li>
-    </ul>
-    <a id="navbar-brand" href="#" class="hidden-sm-down">Charles Tillmon</a>
-  </div>
-</nav>
-</div>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>CT</title>
+		<!-- bootstrap css -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+		<link rel="stylesheet" href="css/custom.css">
+    </head>
+    <body class="row" style="position: relative; ">
+    <!--  Nav Bar -->
+		<div class="container">
+			<nav class="navbar navbar-toggleable-md fixed-top navbar-light bg-faded">
+			    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+			    </button>
+			    <a class="navbar-brand" href="#">CT</a>
+			    <div class="collapse navbar-collapse container" id="navbarNav">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active">
+						  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+						</li>
+					</ul>
+					<a id="navbar-brand" href="#" class="hidden-sm-down">Charles Tillmon</a>
+				</div>
+		    </nav>
+		</div>
     <!-- /Nav Bar   -->
     <!--Jumobotron start-->
-<div class="jumbotron bg-info col-lg-12">
-      <div class="row text-center pt-5">
-          <h1 class="display-2 col-lg-12">Blog</h1>  
-       </div>
-</div>
+		<div class="jumbotron col-lg-12" style="background: linear-gradient(gray, transparent 90%);">
+			  <div class="row text-center pt-5">
+				  <img src="img/IMG-1291.jpg" width="300px" height="300px" style="border-radius: 50%;background: black; padding: 3px;"/>
+			   </div>
+		</div>
 
     
-<!--Jumbotron end    -->
+	<!--Jumbotron end    -->
     
-<!--    main -->
-<div class="container">
-        <div class="row mb-4">
+	<!--    main -->
+
+        <div class="row mb-4" style="display: grid;grid-template-columns: 580px 580px;margin: 0 auto;">
 			<div class="mx-auto my-3 col-md-8">
 				<div class="card card-inverse" style="background-color: #333; border-color: #333;">
 					<div class="card-block">
@@ -66,7 +49,7 @@
 						
 						<p class="card-text">A brief explanation of the difference between the Internet and the Web</p>
 			
-						<a target="_blank" href="https://www.linkedin.com/pulse/internet-vs-web-charles-tillmon/" class="btn btn-primary">See Article</a>
+						<a class="btn btn-primary articleButtons" target="_blank" href="https://www.linkedin.com/pulse/internet-vs-web-charles-tillmon/" class="btn btn-primary">See Article</a>
 					</div>
 				</div>
 				  
@@ -78,7 +61,7 @@
 						
 						<p class="card-text">An overview of the Transmission Control Protocol & Internet Protocol</p>
 			
-						<a target="_blank" href="https://www.linkedin.com/pulse/tcpip-overview-charles-tillmon/" class="btn btn-primary">See Article</a>
+						<a class="btn btn-primary articleButtons" target="_blank" href="https://www.linkedin.com/pulse/tcpip-overview-charles-tillmon/" class="btn btn-primary">See Article</a>
 					</div>
 				</div>
 				  
@@ -90,7 +73,7 @@
 						
 						<p class="card-text">An overview of the common components used to make client side applications</p>
 			
-						<a target="_blank" href="https://www.linkedin.com/pulse/core-front-end-components-overview-charles-tillmon-1c/?trackingId=pu2dWKwhTVmC4H7PnQIMQA%3D%3D" class="btn btn-primary">See Article</a>
+						<a class="btn btn-primary articleButtons" target="_blank" href="https://www.linkedin.com/pulse/core-front-end-components-overview-charles-tillmon-1c/?trackingId=pu2dWKwhTVmC4H7PnQIMQA%3D%3D" class="btn btn-primary">See Article</a>
 					</div>
 				</div>
 				  
@@ -102,7 +85,7 @@
 						
 						<p class="card-text">An introduction into the content layer of web pages</p>
 						
-						<a href="https://www.linkedin.com/pulse/html-tips-beginners-charles-tillmon/" class="btn btn-primary">See Article</a>
+						<a class="btn btn-primary articleButtons" href="https://www.linkedin.com/pulse/html-tips-beginners-charles-tillmon/" class="btn btn-primary">See Article</a>
 					</div>
 				</div> 
 			</div>
@@ -113,7 +96,7 @@
 						
 						<p class="card-text">How the styling layer helps elements interact with each other </p>
 						
-						<a href="https://www.linkedin.com/pulse/css-normal-document-flow-charles-tillmon/" class="btn btn-primary">See Article</a>
+						<a class="btn btn-primary articleButtons" href="https://www.linkedin.com/pulse/css-normal-document-flow-charles-tillmon/" class="btn btn-primary">See Article</a>
 					</div>
 				</div> 
 			</div>
@@ -124,7 +107,7 @@
 						
 						<p class="card-text">An introduction into the world of JavaScript</p>
 						
-						<a href="https://www.linkedin.com/pulse/javascript-beginners-charles-tillmon/" class="btn btn-primary">See Article</a>
+						<a class="btn btn-primary articleButtons" href="https://www.linkedin.com/pulse/javascript-beginners-charles-tillmon/" class="btn btn-primary">See Article</a>
 					</div>
 				</div> 
 			</div>
@@ -135,7 +118,7 @@
 						
 						<p class="card-text">A brief explanation of the differences between these two types of JavaScript code</p>
 			
-						<a target="_blank" href="https://www.linkedin.com/pulse/asynchronous-vs-synchronous-code-charles-tillmon/?trackingId=t2an1k4PkaDewx%2BW%2FCW8DQ%3D%3D" class="btn btn-primary">See Article</a>
+						<a class="btn btn-primary articleButtons" target="_blank" href="https://www.linkedin.com/pulse/asynchronous-vs-synchronous-code-charles-tillmon/?trackingId=t2an1k4PkaDewx%2BW%2FCW8DQ%3D%3D" class="btn btn-primary">See Article</a>
 					</div>
 				</div>
 				  
@@ -147,7 +130,7 @@
 						
 						<p class="card-text">Understanding JavaScript promises and how it helps interacting with asynchronous JavaScript</p>
 			
-						<a target="_blank" href="https://www.linkedin.com/pulse/javascript-promises-charles-tillmon/" class="btn btn-primary">See Article</a>
+						<a class="btn btn-primary articleButtons" target="_blank" href="https://www.linkedin.com/pulse/javascript-promises-charles-tillmon/" class="btn btn-primary">See Article</a>
 					</div>
 				</div>
 				  
@@ -159,7 +142,7 @@
 						
 						<p class="card-text">A brief explanation on how new keywords help asynchronous code look like traditional synchronous code</p>
 			
-						<a target="_blank" href="https://www.linkedin.com/pulse/async-await-keywords-charles-tillmon/" class="btn btn-primary">See Article</a>
+						<a class="btn btn-primary articleButtons" target="_blank" href="https://www.linkedin.com/pulse/async-await-keywords-charles-tillmon/" class="btn btn-primary">See Article</a>
 					</div>
 				</div>
 				  
@@ -171,7 +154,7 @@
 						
 						<p class="card-text">An introduction to the SQL database language </p>
 			
-						<a target="_blank" href="https://www.linkedin.com/pulse/intro-sql-charles-tillmon/" class="btn btn-primary">See Article</a>
+						<a class="btn btn-primary articleButtons" target="_blank" href="https://www.linkedin.com/pulse/intro-sql-charles-tillmon/" class="btn btn-primary">See Article</a>
 					</div>
 				</div>
 				  
@@ -184,7 +167,7 @@
 						
 						<p class="card-text">An introduction to Node Js. JavaScript hosted on the server side</p>
 			
-						<a target="_blank" href="https://www.linkedin.com/pulse/nodejs-beginners-charles-tillmon/" class="btn btn-primary">See Article</a>
+						<a class="btn btn-primary articleButtons" target="_blank" href="https://www.linkedin.com/pulse/nodejs-beginners-charles-tillmon/" class="btn btn-primary">See Article</a>
 					</div>
 				</div>
 				  
@@ -197,7 +180,7 @@
 						
 						<p class="card-text">A look into the changing role of technology within the business world</p>
 						
-						<a target="_blank" href="https://www.linkedin.com/pulse/modernizing-your-business-worth-investment-charles-tillmon/" class="btn btn-primary">See Article</a>
+						<a class="btn btn-primary articleButtons" target="_blank" href="https://www.linkedin.com/pulse/modernizing-your-business-worth-investment-charles-tillmon/" class="btn btn-primary">See Article</a>
 					</div>
 				</div>
 			</div>
@@ -207,60 +190,38 @@
       
       
 
-<br>
-<!-- Footer  start    -->
-<div class="container-fluid fixed-bottom pb-2 pt-2 pl-2">
-<!--  footer left    -->
-<div class="row">
-	<div class="col-md-7 parts">
-	  <ul class="nav nav-inline">
-		<li class="nav-item">
-			<div class="btn-group dropup">
-				<button type="button" class="btn btn-secondary">
-				About Charles
-				</button>
-				<button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					<span class="sr-only">Toggle Dropdown</span>
-				</button>
-				<div class="dropdown-menu">
-					<!-- Dropdown menu links -->
-					<a class="dropdown-item" href="Bio.html">Mission Statement</a>
-					<a class="dropdown-item" href="myWork.html">My Work</a>
+		<br>
+		<!-- Footer  start    -->
+		<div class="container-fluid footer pb-2 pt-2 pl-2 col-md-12 " >
+		<!--  footer left    -->
+			<div class="row">
+				<div class="col-md-7 parts ">
+					<ul style="display: flex;list-style: none; padding: 10px; padding-bottom: 0;">
+						<li style="margin-right: .5rem;">
+							<a target="_blank" href="https://github.com/CTillmon1"><i style="color: white;" class="fab fa-github"></i></a>
+						</li>
+						<li style="margin-right: .5rem;">
+							<a target="_blank" href="https://codepen.io/CTillmon206"><i style="color: white;" class="fab fa-codepen"></i></a>
+						</li>
+						<li style="margin-right: .5rem;">
+							<a target="_blank" href="https://www.instagram.com/c.tillmon206/"><i style="color: white;" class="fab fa-instagram"></i></a>
+						</li>
+					</ul>
+							  
+				</div>
+			<!--  footer right      -->
+				<div class="col-md-5 text-md-right parts" style="padding-top: 5px;color: white;">
+				 <small>&copy; 2020 Charles Tillmon</small>
 				</div>
 			</div>
-		</li>
-		
-		<li class="nav-item">
-			<div class="btn-group dropup">
-			  <button type="button" class="btn btn-secondary">
-				Extras
-			  </button>
-			  
-			  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-				<span class="sr-only">Toggle Dropdown</span>
-			  </button>
-			  
-			  <div class="dropdown-menu">
-				<!-- Dropdown menu links -->
-				<a class="dropdown-item" href="Gallery.html">Gallery</a>
-			  </div>
-			</div>
-		</li>
-	 </ul>
-	</div>
-<!--  footer right      -->
-	<div class="col-md-5 text-md-right parts">
-	 <small>&copy; 2020 Charles Tillmon</small>
-	</div>
-</div>
-<!--  footer end    -->
-</div>
+		<!--  footer end    -->
+		</div>
   
-  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
  
     </body>
-  </html>
+</html>
 
 
