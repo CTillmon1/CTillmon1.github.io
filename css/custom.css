@@ -314,4 +314,7 @@ h5>a:focus{
 					linear-gradient(0deg, rgba(220,20,60, .8), transparent 90%)
 					;
 	}
+	.display-2 {
+		font-size: 20px; 
+	}
 }
