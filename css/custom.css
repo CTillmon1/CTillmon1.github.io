@@ -76,6 +76,9 @@ height: 100px;
 	margin: auto; 
 	
 }
+.sliderStart {
+	padding: 50px; 
+}
 .contentArea {
 	transition: box-shadow .8s ease-out; 
 	box-shadow: inset 3px 3px 50px 3px gray;  
@@ -290,6 +293,9 @@ h5>a:focus{
 	}
 	.endJ {
 		display: none; 
+	}
+	.sliderStart {
+		padding: 0; 
 	}
 	.contentArea {
 		box-shadow: none; 
