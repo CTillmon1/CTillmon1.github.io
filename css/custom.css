@@ -37,6 +37,9 @@ h1.display-2{
 	color: white; 
 	letter-spacing: .25rem; 
 }
+.endHeaderText {
+	bottom: 0; 
+}
 #home {
 	height: 600px; 
 	width: 100%; 
@@ -44,6 +47,7 @@ h1.display-2{
 #home h1 {
 transform: scale(.75);
 }
+
 
 .jumbotron#home{
 background-color: white; 
@@ -61,7 +65,7 @@ width: 400px;
 height: 100px;
 }
 /*Intro Statement begins */
-#introStatement {
+#Statement {
 	height:250px;
 	display:flex;
 	padding:80px;
@@ -276,8 +280,11 @@ h5>a:focus{
 	#home {
 		height: 70%; 
 	}
-	#first {
-		font-size: 30px; 
+	#Statement {
+		padding: 0;
+	}
+	#statementContainer {
+		font-size: 10px; 
 		padding-bottom: 2em; 
 
 	}
@@ -286,7 +293,9 @@ h5>a:focus{
 	}
 	.contentArea {
 		box-shadow: none; 
-		flex-direction: column; 
+		flex-direction: column;
+		overflow-y: auto; 
+			
 	}
 	.articles {
 		width: 75%; 
@@ -306,8 +315,8 @@ h5>a:focus{
 	.mainHeaderText {
 		color: rgba(255,215,0,.75); 
 	}
-	.second {
-		bottom: -30px; : ; 
+	.endHeaderText{
+		bottom: -85px;
 	}
 	#about {
 		background: linear-gradient(#fff, transparent),
