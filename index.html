@@ -6,12 +6,13 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>CT</title>
     <!-- bootstrap css -->
+	<link rel="stylesheet" href="css/custom.css">
 	<link href="https://fonts.googleapis.com/css2?family=Modak&family=Permanent+Marker&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 	<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
-    <link rel="stylesheet" href="css/custom.css">
+	<script>window.sr = ScrollReveal();</script>
 	</head>
 	<body data-spy="scroll" data-target=".navbar" style="overflow-x: hidden;">
     
@@ -36,15 +37,16 @@
 	<!--Jumobotron start-->
 		<div id="home" class="jumbotron container-fluid bg-info pl-auto" style="border-bottom: 2px solid white;">
 			<div id="mainPageHeader" class=" text-center pt-5">
-				<h1 class="mainHeaderText beginHeaderText" style="left:0;top:0;text-shadow: 3px 3px black;">Don't pray for an Easy life</h1>
-				<h1 class="mainHeaderText endHeaderText" style="right:0;text-shadow: 3px 3px black;">Pray for the strength to endure a hard one</h1>		   
+				<h1 class="mainHeaderText beginHeaderText load-hidden" style="left:0;top:0;text-shadow: 3px 3px black;">Don't pray for an Easy life</h1>
+				<h1 class="mainHeaderText endHeaderText load-hidden" style="right:0;text-shadow: 3px 3px black;">Pray for the strength to endure a hard one</h1>		   
 			</div>
 		</div>
 	<!--Jumbotron end    -->
 		<hr class="endJ">
+		<div class="statementBox" style="display: block;">
 		<section id="Statement" class="contentArea">
-			<div id="statementContainer" style="flex-grow: 1;" >
-				<p  class="justified pt-3 pr-3 pl-3" style="font-family: Special Elite;letter-spacing: .25rem; font-weight: bold;position: relative; ">
+			<div class="statementContainer" style="flex-grow: 1;" >
+				<p  class="justified pt-3 pr-3 pl-3" style="font-family: Special Elite;letter-spacing: .25rem; font-weight: bold; ">
 							   We are in an age where technology is increasing at such an exponential rate and providing us with opportunities and 
 							   capabilities we've never had before. My passion is finding ways to leverage these technologies to increase not only 
 							   work flow efficiency but the quality of life. Even as solutions are found to remedy issues, the fluid nature of technology 
@@ -53,6 +55,7 @@
 				</p>
 			</div>	
 		</section>
+		</div>
 	<!-- start of slider-->
 		<div id="particles-js" class="container mt-5 sliderStart" style="width: 80%;background-size: cover;background-image: url("");background-color: transparent; "  >
 			  
@@ -190,28 +193,40 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-	<script>
-		particleJS.load("particles-js", 'particles.json', function() {
-  console.log('callback - particles.js config loaded');
-}); 
-	</script> 
-	<script>
-		window.sr = ScrollReveal(); 
+	
+	<script> 
 		sr.reveal('.beginHeaderText', {
 			origin: 'left', 
 			duration: 1200,
 			distance: '50px',
-			easing: 'ease-in',
+			easing: 'ease-in'
 			});
 		sr.reveal('.endHeaderText', {
 			origin: 'right', 
 			duration: 1000,
 			delay: 1000,
 			distance: '50px',
-			easing: 'ease-in',
+			easing: 'ease-in'
+			});
+		sr.reveal('.statementBox', {
+			origin: 'right', 
+			duration: 1000,
+			viewFactor: 0.1,
+			distance: '50px',
+			easing: 'ease-in', 
+			container: 'body',
+			});
+		sr.reveal('#about', {
+			origin: 'left', 
+			duration: 1000,
+			viewFactor: 0.1,
+			distance: '50px',
+			easing: 'ease-in', 
+			container: 'body',
 			});
 		
 		
-		</script>
+		
+	</script>
 	</body>
 </html>

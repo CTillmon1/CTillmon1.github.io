@@ -10,6 +10,9 @@ html {
   padding: 0; 
   
 }
+html.sr .load-hidden {
+    visibility: hidden;
+}
 .nav-container {
 	height: 50px; 
 }
@@ -146,9 +149,7 @@ color: rgba(220,20,60);
 	height: 100%; 
 	width: 100%; 
 }
-#statement {
-	text-shadow: 2px 2px 3px rgba(120, 81, 169, .66);
-}
+
 
 .shadow{
 	box-shadow: 5px 5px 10px 3px gray; 
