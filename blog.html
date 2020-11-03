@@ -7,8 +7,10 @@
 		<title>CT</title>
 		<!-- bootstrap css -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
 		<link rel="stylesheet" href="css/custom.css">
+		<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+		<script>window.sr = ScrollReveal();</script>
     </head>
     <body class="row" style="position: relative; ">
     <!--  Nav Bar -->
@@ -31,7 +33,7 @@
     <!-- /Nav Bar   -->
     <!--Jumobotron start-->
 		<div class="jumbotron col-lg-12" style="background: linear-gradient(gray, transparent 90%);">
-			  <div class="row text-center pt-5">
+			  <div id="logoContainer" class="row text-center pt-5">
 				  <img src="img/IMG-1291.jpg" width="300px" height="300px" style="border-radius: 50%;background: black; padding: 3px;"/>
 			   </div>
 		</div>
@@ -41,7 +43,7 @@
     
 	<!--    main -->
 
-        <div class="row mb-4" style="display: grid;grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));margin: 0 auto;">
+        <div id="blogContainer" class="row mb-4" style="display: grid;grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));margin: 0 auto;">
 			<div class="mx-auto my-3 col-md-8">
 				<div class="card card-inverse" style="background-color: #333; border-color: #333;">
 					<div class="card-block">
@@ -204,7 +206,7 @@
 							<a target="_blank" href="https://codepen.io/CTillmon206"><i style="color: white;" class="fab fa-codepen"></i></a>
 						</li>
 						<li style="margin-right: .5rem;">
-							<a target="_blank" href="https://www.instagram.com/c.tillmon206/"><i style="color: white;" class="fab fa-instagram"></i></a>
+							<a target="_blank" href="https://www.instagram.com/seatilly206/"><i style="color: white;" class="fab fa-instagram"></i></a>
 						</li>
 					</ul>
 							  
@@ -220,7 +222,23 @@
 <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
- 
+ <script> 
+		sr.reveal('#blogContainer', {
+			origin: 'bottom', 
+			duration: 1200,
+			distance: '50px',
+			easing: 'ease-out', 
+			viewFactor: 0.1,
+			});
+		sr.reveal('#logoContainer', {
+			origin: 'left', 
+			duration: 1100,
+			distance: '300px',
+			easing: 'ease-out', 
+			});
+		
+		
+	</script>
     </body>
 </html>
 
